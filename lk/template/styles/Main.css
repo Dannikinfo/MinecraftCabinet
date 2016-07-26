@@ -1,0 +1,73 @@
+/*==================Code by Cames===================*/
+.block {
+    margin-top: 25px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 25px;
+    margin-bottom: 100px;
+}
+
+.load-skin {
+    padding-top: 2px;
+    text-align: center;
+}
+
+.load-skin a {
+    border-radius: 4px;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.side {
+    text-align: left;
+}
+.side img{
+    display: block;
+    margin: 0 auto;
+}
+
+.side-group {
+    margin-bottom: 15px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.btn {
+    width: 65px;
+    padding-left: 10px;
+    text-align: center;
+    border-radius: 4px;
+}
+/*=========================End======================*/
+/*==================Code by DannikInfo==================*/
+.col-md-6{
+    background:white;
+}
+.logo{
+    text-align: center;
+}
+/*================General style===================*/
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background:url(../img/bg.png);
+    background-attachment: fixed;
+    background-size:cover;
+    font-family: 'AvantGardeC';
+}
+@font-face {
+    font-family: AvantGardeC;
+    src: url(textnameCore.otf);
+}
