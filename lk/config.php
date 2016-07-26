@@ -4,8 +4,8 @@ $config = array(
     'db' => array(
         'host'       => 'localhost',
         'user'       => 'root',
-        'password'   => 'ghjcnjq',
-        'database'   => 'db1',
+        'password'   => 'password',
+        'database'   => 'database',
         'errhost'    => 'Ошибка соединения с mysql сервером!',
         'errbase'    => 'Ошибка соединения с базой данных!',
     ),
