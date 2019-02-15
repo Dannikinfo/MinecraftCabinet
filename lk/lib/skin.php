@@ -1,8 +1,8 @@
 <?php
 	// Функции с плащами пока вырезаны
 	$skin = array(
-		'dir_skins' => '../../launcher/MinecraftSkins/', // Путь до папки скинов от текущего каталога
-		'dir_cloaks' => '../../launcher/MinecraftCloaks/', // Путь до папки плащей от текущего каталога
+		'dir_skins' => '../skins/', // Путь до папки скинов от текущего каталога
+		'dir_cloaks' => '../cloaks/', // Путь до папки плащей от текущего каталога
 		'default' => 'default', // Дефолтный скин
 		'user' => filter_input(INPUT_GET,'user',FILTER_SANITIZE_FULL_SPECIAL_CHARS),
 		'size' => filter_input(INPUT_GET,'size',FILTER_SANITIZE_NUMBER_FLOAT),
