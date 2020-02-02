@@ -27,11 +27,11 @@ body{
 .side > a{
     display: block;
     color: rgb(51,51,51);
-    transition: all 0.3s ease;
+    transition: 0.5s;
     text-decoration: none;
 }
 .side > a:hover{
-    background-color: rgb(231,231,231);
+    color: rgb(100,100,100);
 }
 
 .stats{

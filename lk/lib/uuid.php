@@ -1,6 +1,6 @@
 <?php
 /*
-* This library for Convertation UserName to UUID - Uniqle User Indetificator
+* This library for Convertation UserName to UUID - Uniqle User Identificator
 * by Alexandrage (18.05.2016)
 */
 
@@ -31,8 +31,7 @@ function uuidFromString($string) {
     return $uuid;
 }
  
-function uuidConvert($string)
-{
+function uuidConvert($string){
     $string = uuidFromString("OfflinePlayer:".$string);
     return $string;
 }

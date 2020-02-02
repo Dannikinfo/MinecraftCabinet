@@ -4,7 +4,7 @@
 		$dir = opendir('skins/');
 		$count = 0;
 		while($file = readdir($dir)){
-		    if($file == '.' || $file == '.DS_Store' || $file == '..' || is_dir('skins/' . $file)){
+		    if($file == '.' || $file == '.DS_Store' || $file == '..' || is_dir('skins/' . $file) || $file == 'default.png'){
 		        continue;
 		    }
 		    $count++;
@@ -16,7 +16,7 @@
 		$dir = opendir('cloaks/');
 		$count = 0;
 		while($file = readdir($dir)){
-		    if($file == '.' || $file == '..' || is_dir('cloaks/' . $file)){
+		    if($file == '.' || $file == '.DS_Store' || $file == '..' || is_dir('cloaks/' . $file) || $file == 'default.png'){
 		        continue;
 		    }
 		    $count++;

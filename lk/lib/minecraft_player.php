@@ -21,14 +21,14 @@
 	//Permissions selecting database
 	    //pex main
 	$query_pex_main = "SELECT * FROM ".$config['pex']['pexMainTable']." WHERE name = '$uuid' ";
-	$stmt_pex_main = mysqli_query($connect, $query_pex_main);
-	$result_pex_main = mysqli_fetch_assoc($stmt_pex_main);
+	//$stmt_pex_main = mysqli_query($connect, $query_pex_main);
+	$result_pex_main;// = mysqli_fetch_assoc($stmt_pex_main);
 	$prefix = 'Undefined';
 	if($result_pex_main['permissions'] == 'prefix'){
 	    $prefix = $result['value'];
 	}
 	    //pex inheritance for user
 	$query_pex_inh = "SELECT * FROM ".$config['pex']['pexInhTable']." WHERE child = '$uuid' ";
-	$stmt_pex_inh = mysqli_query($connect, $query_pex_inh)or die(mysqli_error($connect));
-	$result_pex_inh = mysqli_fetch_assoc($stmt_pex_inh);
+	//$stmt_pex_inh = mysqli_query($connect, $query_pex_inh)or die(mysqli_error($connect));
+	$result_pex_inh;// = mysqli_fetch_assoc($stmt_pex_inh);
 ?>
